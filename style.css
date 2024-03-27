@@ -50,10 +50,17 @@ h3 {
     font-size: inherit;
 }
 
-.make {
+.make,
+.randomize {
     cursor: pointer;
     border: none;
     border-radius: 4px;
     padding: 1rem;
     box-shadow: 4px 4px 4px black;
+}
+
+.randomize {
+    margin: 1rem 0;
+    color: #fff;
+    background: linear-gradient(#ff000046, #0000ff93, #00800057);
 }
